@@ -1,0 +1,65 @@
+//colors family
+$white: #ffffff !default;
+$gray-3: #f1f4f7 !default;
+$gray-2: #fbfbfb !default;
+$gray-1: #e9e9ea !default;
+$silver: #adb1bc !default;
+$white-blue: #aadde1!default;
+$darkGray-1: #2b2f37 !default;
+$darkGray: #20252e !default;
+$white-red: #fbc8c4 !default;
+$light-red: #ff5554 !default;
+$red:#f03846 !default;
+$blue-gray: #4a5c7d !default;
+$blue: #2457e0 !default;
+$blue-dark: #003de5 !default;
+$blue-light: #1695e5 !default;
+$blue-lightest: #00b2df !default;
+$blue-lightest-1: #51bde2 !default;
+$blue-lightest-2: #6d98e6 !default;
+$pink: #b5007c !default;
+
+$orange: #ea690a !default;
+$yellow: #ecc609 !default;
+$green-light: #44d2c3 !default;
+
+
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret:              true !default;
+$enable-rounded:            true !default;
+$enable-shadows:            false !default;
+$enable-gradients:          false !default;
+$enable-transitions:        true !default;
+$enable-hover-media-query:  false !default; // Deprecated, no longer affects any compiled CSS
+$enable-grid-classes:       true !default;
+$enable-print-styles:       true !default;
+
+
+$grid-columns:                12 !default;
+$grid-gutter-width:           30px !default;
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px
+) !default;
+
+@include _assert-ascending($container-max-widths, "$container-max-widths");
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints);
+
+
+//spacer
+
+$spacer: 1em;

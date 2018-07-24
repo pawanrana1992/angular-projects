@@ -1,0 +1,32 @@
+<section class="s-2">
+  <div class="container">
+    <ngx-masonry class="row masonry-grid">
+      <ngxMasonryItem class="masonry-item col-sm-4 masonry-grid-item u-landing-self u-delay-2 landed" *ngFor="let item of masonryItems; let i = index">
+
+        <a class="o-tile magebit " href="{{item.url}}">
+          <div class="m-tile-header {{item.zoomAnim === true ? '':'zoom'}}">
+            <div class="a-bg-circle spread2" *ngIf="item.zoomAnim === true"></div>
+            <div class="a-bg-rectangle spread3" *ngIf="item.zoomAnim === true"></div>
+            <img src="{{item.image}}" class="{{item.zoomAnim === true ? 'img1 spread1': 'bg'}}" align="{{item.zoomAnim === true ? '' : 'crown background'}}">
+          </div>
+          <div class="m-tile-body">
+            <div class="row">
+              <div class="col-lg-7">
+                <h3>{{item.title}}<span class="u-c-primary">.</span></h3>
+                <div class="development">{{item.development}}</div>
+                <div class="description">
+                  {{item.description}}
+                </div>
+              </div>
+              <div class="col-lg-5 button">
+                <div class="a-circle arrow-r">
+                  <span class="label">detail</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </ngxMasonryItem>
+    </ngx-masonry>
+  </div>
+</section>

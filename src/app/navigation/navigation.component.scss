@@ -1,0 +1,54 @@
+@import "../../assets/sass/theme";
+
+.app-header{
+  position: relative;
+  width: 100%;
+  @include clearfix;
+  .wrap-nav{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    @include clearfix;
+    padding: $spacer*3;
+    .logo{
+      width: 40%;
+      position: relative;
+      .logo-img{
+        vertical-align: middle;
+        display: inline-block;
+        img{
+          max-width: 80px;
+        }
+        margin-right: $spacer;
+      }
+      .label{
+        text-transform: uppercase;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+    .navs{
+      position: relative;
+      width: calc(100% - 40%);
+      ul{
+        list-style: none;
+        text-align: right;
+        li{
+          display: inline-block;
+          a{
+            color:$darkGray;
+            text-decoration: none;
+            font-size: 1rem;
+            font-family: Trirong,serif;
+            font-weight: 500;
+            padding: $spacer;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

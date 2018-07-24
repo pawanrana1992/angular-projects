@@ -1,0 +1,5 @@
+@mixin autofill($prefix) {
+  -#{$prefix}-text-fill-color: $white !important;
+  -#{$prefix}-box-shadow: 0 0 0 1000px $shark inset;
+  color: $white !important;
+}
