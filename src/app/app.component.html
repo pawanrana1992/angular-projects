@@ -1,115 +1,86 @@
 <app-navigation></app-navigation>
 <main>
-    <section class="s-1 u-landing-section landed">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 content">
-                    <h1>We create <span class="u-c-gray">digital</span> products<span class="u-c-primary">.</span></h1>
-                    <p>Full service agency focused on web development and mobile apps. We work with companies of all sizes.</p>
-                    <div class="a-circle arrow-d" id="work">
-                        <span class="label u-d-n u-d-lg-b">Projects</span>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <a class="o-tile cisnik" href="/cisnik">
-                        <div class="m-tile-header u-landing u-delay-3 landed">
-                            <div class="img1-container">
-                                <img src="../assets/image/graphics/cisnik-iphone-1.png" class="img1 u-landing landed u-delay-0">
-                            </div>
-                            <div class="img2-container">
-                                <img src="../assets/image/graphics/cisnik-iphone-2.png" class="img2 u-landing landed u-delay-0">
-                            </div>
-                            <div class="app-stores u-d-n u-d-md-b">
-                                <div class="a-app-store">
-                                    <span><img src="../assets/image/google-play.png" alt="google play"></span>
+    <router-outlet></router-outlet>
 
-                                </div>
-                                <div class="a-app-store">
-                                    <span><img src="../assets/image/app-store.png" alt="app store"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-tile-body u-landing u-delay-3 landed">
-                            <div class="row">
-                                <div class="col-sm-7">
-                                    <h3>The Waiter<span class="u-c-primary">.</span></h3>
-                                    <div class="development">Complete development</div>
-                                    <div class="description">
-                                        Order food <strong>via our app</strong> in any restaurant
-                                    </div>
-                                </div>
-                                <div class="col-sm-5 button">
-                                    <div class="a-circle arrow-r">
-                                        <span class="label">detail</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="a-bg-circle circle1 red u-landing-2 u-delay-1 landed">
-                            <div class="shadow gradient"></div>
-                        </div>
-                        <div class="circle2-container">
-                            <div class="a-bg-circle circle2 green u-landing-2 u-delay-5 landed">
-                                <div class="shadow"></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-   <app-work-masonry-card></app-work-masonry-card>
-    <section class="s-3 u-landing-section landed">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="o-carousel">
-                        <div class="a-circle quote u-landing landed"></div>
-                        <div class="testimonials-slider u-landing slick-initialized slick-slider landed"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
-                            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4396px; transform: translate3d(-628px, 0px, 0px);"><div class="m-testimonial slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 628px;" tabindex="-1">
-                                <div class="author"><span class="name">Arturs Kruze</span> CEO of Magebit</div>
-                                <div class="body">
-                                    <p>Thank you for your great service. I really enjoyed working with you as the communication skills were just great! The designs are also very neat and exactly what I expected from professional designers.</p>
-                                </div>
-                            </div><div class="m-testimonial slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 628px;" tabindex="0">
-                                <div class="author"><span class="name">Andrej Čírtek</span> managing director of PP&nbsp;Partners</div>
-                                <div class="body">
-                                    <p>I appreciated the flexibility, listening to the needs of the client, and the motivation to prepare the most effective solution with regard to price and performance.</p>
-                                </div>
-                            </div><div class="m-testimonial slick-slide" data-slick-index="1" aria-hidden="true" style="width: 628px;" tabindex="-1">
-                                <div class="author"><span class="name">Petr Havelka</span> The Chair of the Board of Directors of AWIS</div>
-                                <div class="body">
-                                    <p>We are delighted with the graphic designs VA FIGHTERS created for us as well as with their attitude and the involvement of the latest technologies. Together we have created an exceptional mobile app.</p>
-                                </div>
-                            </div><div class="m-testimonial slick-slide" data-slick-index="2" aria-hidden="true" style="width: 628px;" tabindex="-1">
-                                <div class="author"><span class="name">Arturs Kruze</span> CEO of Magebit</div>
-                                <div class="body">
-                                    <p>Thank you for your great service. I really enjoyed working with you as the communication skills were just great! The designs are also very neat and exactly what I expected from professional designers.</p>
-                                </div>
-                            </div><div class="m-testimonial slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" style="width: 628px;" tabindex="-1">
-                                <div class="author"><span class="name">Andrej Čírtek</span> managing director of PP&nbsp;Partners</div>
-                                <div class="body">
-                                    <p>I appreciated the flexibility, listening to the needs of the client, and the motivation to prepare the most effective solution with regard to price and performance.</p>
-                                </div>
-                            </div><div class="m-testimonial slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" style="width: 628px;" tabindex="-1">
-                                <div class="author"><span class="name">Petr Havelka</span> The Chair of the Board of Directors of AWIS</div>
-                                <div class="body">
-                                    <p>We are delighted with the graphic designs VA FIGHTERS created for us as well as with their attitude and the involvement of the latest technologies. Together we have created an exceptional mobile app.</p>
-                                </div>
-                            </div><div class="m-testimonial slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" style="width: 628px;" tabindex="-1">
-                                <div class="author"><span class="name">Arturs Kruze</span> CEO of Magebit</div>
-                                <div class="body">
-                                    <p>Thank you for your great service. I really enjoyed working with you as the communication skills were just great! The designs are also very neat and exactly what I expected from professional designers.</p>
-                                </div>
-                            </div></div></div>
-
-
-                            <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button></div>
-                        <div class="numbering u-landing landed">1 <span class="divider"></span> 3</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 </main>
+
+<footer id="contact">
+    <div class="o-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 col-xxl-4 offset-xxl-4 content">
+                    <div>
+                        <span class="a-logo">
+                            <img class="img" src="../assets/image/logo.svg">
+                        </span>
+                        <h4>Get in touch</h4>
+                        <div class="a-contact main">
+                            <a class="link" href="mailto:hey@va-fighters.com">hey@va-fighters<span class="u-c-primary">.</span>com</a>
+                        </div>
+                    </div>
+
+                    <div class="contacts">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="a-contact">
+                                    <div class="label">Phone number 1</div>
+                                    <a class="link" href="tel:00420776053879">+420 776 053 879</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="a-contact">
+                                    <div class="label">Phone number 2</div>
+                                    <a class="link" href="tel:00420608145433">+420 608 145 433</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="a-contact">
+                                    <div class="label">ID number</div>
+                                    <span class="link">036 82 234</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="a-contact">
+                                    <div class="label">Place</div>
+                                    <span class="link">Czech Republic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-form">
+                        <div class="a-form-alert"></div>
+                        <form action="#contact" method="post" id="contact-form">
+                            <input type="hidden" name="send" value="true">
+                            <div class="m-input-group">
+                                <input type="text" class="a-input incorrect" placeholder="Your name" name="name" autocomplete="name">
+                            </div>
+                            <div class="m-input-group">
+                                <input type="email" class="a-input" placeholder="E-mail" name="email" autocomplete="email">
+                            </div>
+                            <div class="m-input-group">
+                                <textarea class="a-textarea" placeholder="Message" rows="7" name="message"></textarea>
+                            </div>
+                            <div class="m-input-group">
+                                <button type="submit" class="a-submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <h4>Not following us yet?</h4>
+                    <div class="m-socials">
+                        <a class="a-social" target="_blank" href="https://www.instagram.com/vafighters/"><i class="fa fa-instagram"></i></a>
+                        <a class="a-social" target="_blank" href="https://www.facebook.com/vafighters/"><i class="fa fa-facebook"></i></a>
+                        <a class="a-social" target="_blank" href="https://dribbble.com/vafighters/"><i class="fa fa-dribbble"></i></a>
+                        <a class="a-social" target="_blank" href="https://www.behance.net/vafighters/"><i class="fa fa-behance"></i></a>
+                    </div>
+
+                    <div class="copyright">Copyright© VA FIGHTERS 2018</div>
+
+                </div>
+            </div>
+            <div class="a-bg-circle bg-circle-1"></div>
+            <div class="a-bg-circle bg-circle-2"></div>
+        </div>
+    </div>
+</footer>
 

@@ -921,7 +921,7 @@
 }
 
 .a-circle.quote {
-  //background: transparent url("../../../assets/image/quotes.svg") no-repeat center;
+  background: transparent url("/assets/image/quotes.svg") no-repeat center;
   background-size: 100% 100%
 }
 
@@ -931,7 +931,7 @@
 }
 
 .a-circle.info {
-  //background: $red url("../../../assets/image/logo.svg") no-repeat center center;
+  background: $red url("/assets/image/logo.svg") no-repeat center center;
   background-size: 3px 18px
 }
 
@@ -1301,7 +1301,7 @@
   height: calc(100% - 4px);
   border-radius: .25rem;
   background-color: $red;
-  //background-image: url(../../../assets/image/logo.svg), url(../../../assets/image/logo.svg);
+  background-image: url('/assets/image/logo.svg'), url('/assets/image/logo.svg');
   background-repeat: no-repeat;
   background-position: center top 3px, center bottom 3px;
   background-size: 6px auto, 6px auto
@@ -1568,11 +1568,10 @@
   display: block;
   overflow: hidden;
   box-shadow: 0 0 1.5rem 0 rgba(32, 37, 46, .15);
-  //background: $gray-2 url(../../../assets/image/payment.svg) no-repeat center center;
+  background: $gray-2 url('/assets/image/payment.svg') no-repeat center center;
   background-size: 48px 48px;
   margin: .375rem
 }
-
 .a-banner img {
   width: 100%;
   height: 100%;
@@ -2697,7 +2696,7 @@ progress::-webkit-progress-value {
   display: inline-block;
   width: 10px;
   height: 11px;
-  //background: url(../img/testimonials-slash.png) no-repeat center center;
+  background: url('/assets/image/testimonials-slash.png') no-repeat center center;
   background-size: 9px auto
 }
 
@@ -2917,6 +2916,7 @@ progress::-webkit-progress-value {
   }
 }
 
+
 @media (min-width: 1680px) {
   .o-campaigns-slider .slick-arrow.slick-prev {
     left: 17%
@@ -2976,7 +2976,7 @@ progress::-webkit-progress-value {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  //background: $red url(../img/horizontal-slider-arrows.png) no-repeat center center;
+  background: $red url('/assets/image/horizontal-slider-arrows.png') no-repeat center center;
   background-size: 20px 9px
 }
 
@@ -3734,7 +3734,7 @@ progress::-webkit-progress-value {
 }
 
 .o-next-project.crown {
-  //background: #00132b url(../img/crown/related/bg-sm.jpg) no-repeat center center;
+  background: #00132b url('/assets/image/graphics/bg-sm.jpg') no-repeat center center;
   background-size: cover
 }
 
@@ -3776,7 +3776,7 @@ progress::-webkit-progress-value {
 
 @media (min-width: 768px) {
   .o-next-project.crown {
-    //background-image: url(../img/crown/related/bg-md.jpg)
+    background-image: url('/assets/image/graphics/bg-md.jpg')
   }
   .o-next-project.crown .image .img1, .o-next-project.crown .image .img2 {
     width: 20rem
@@ -3817,7 +3817,7 @@ progress::-webkit-progress-value {
 
 @media (min-width: 1024px) {
   .o-next-project.crown {
-    //background-image: url(../img/crown/related/bg.jpg)
+    background-image: url('/assets/image/graphics/bg.jpg')
   }
   .o-next-project.crown .description {
     max-width: 14rem
@@ -3878,7 +3878,7 @@ progress::-webkit-progress-value {
 }
 
 .o-next-project.edua {
-  //background: $blue-dark url(../img/edua/related/bg-sm.jpg) no-repeat center center;
+  background: $blue-dark url('/assets/image/graphics/bg-sm.jpg') no-repeat center center;
   background-size: cover
 }
 
@@ -3913,7 +3913,7 @@ progress::-webkit-progress-value {
 
 @media (min-width: 768px) {
   .o-next-project.edua {
-    //background-image: url(../img/edua/related/bg-md.jpg)
+    background-image: url('/assets/image/graphics/bg-md.jpg')
   }
   .o-next-project.edua .image img {
     width: 329px;
@@ -3948,7 +3948,7 @@ progress::-webkit-progress-value {
 
 @media (min-width: 1024px) {
   .o-next-project.edua {
-    //background-image: url(../img/edua/related/bg.jpg)
+    background-image: url('/assets/image/graphics/bg.jpg')
   }
   .o-next-project.edua .image img {
     width: 256px;
@@ -4371,17 +4371,17 @@ progress::-webkit-progress-value {
 
 .t-reference .media-slider .media-1 .m-tile-header {
   background-color: $red;
-  //background-image: url(../img/media/ico-white.png)
+  background-image: url('/assets/image/graphics/ico-white.png')
 }
 
 .t-reference .media-slider .media-2 .m-tile-header {
   background-color: $gray-3;
-  //background-image: url(../img/media/ico-black.png)
+  background-image: url('/assets/image/graphics/ico-black.png')
 }
 
 .t-reference .media-slider .media-3 .m-tile-header {
   background-color: $gray-2;
-  //background-image: url(../img/media/ico-red.png)
+  background-image: url('/assets/image/graphics/ico-red.png')
 }
 
 .t-reference .media-slider .media-custom .m-tile-header {
@@ -5308,7 +5308,7 @@ progress::-webkit-progress-value {
 }
 
 .p-hp .o-tile.edua .m-tile-header {
-  //background-image: url(../img/hp/edua-bg.jpg)
+  background-image: url('/assets/image/graphics/edua-bg.jpg')
 }
 
 .p-hp .o-tile.edua .m-tile-header .img1 {
@@ -5324,7 +5324,7 @@ progress::-webkit-progress-value {
 
 .p-hp .o-tile.magebit .m-tile-header {
   padding-top: 69%;
-  background-image: url("/assets/image/card-bg.jpg")
+  ckground-image: url("/assets/image/card-bg.jpg")
 }
 
 .p-hp .o-tile.magebit .m-tile-header .img1, .p-hp .o-tile.magebit .m-tile-header .a-bg-circle, .p-hp .o-tile.magebit .m-tile-header .a-bg-rectangle {
@@ -5365,11 +5365,11 @@ progress::-webkit-progress-value {
 }
 
 .p-hp .o-tile.crown .m-tile-header {
-  //background-image: url(../img/hp/crown-bg.jpg)
+  background-image: url('/assets/image/graphics/crown-bg.jpg')
 }
 
 .p-hp .o-tile.justio .m-tile-header {
-  //background-image: url(../img/hp/justio-bg.jpg)
+  background-image: url('/assets/image/graphics/justio-bg.jpg')
 }
 
 @media (min-width: 568px) {
@@ -5666,7 +5666,7 @@ progress::-webkit-progress-value {
 }
 
 .p-crown .s-bg-only {
-  //background-image: url(../img/crown/map-sm.jpg);
+  background-image: url('/assets/image/graphics/map-sm.jpg');
   z-index: -1;
   position: relative
 }
@@ -5844,7 +5844,7 @@ progress::-webkit-progress-value {
     animation-delay: 2.5s
   }
   .p-crown .s-bg-only {
-    //background-image: url(../img/crown/map-md.jpg)
+    background-image: url('/assets/image/graphics/map-md.jpg')
   }
   .p-crown .s-task .image img {
     width: 95%;
@@ -5889,7 +5889,7 @@ progress::-webkit-progress-value {
     bottom: -12rem
   }
   .p-crown .s-bg-only {
-    //background-image: url(../img/crown/map.jpg);
+    background-image: url('/assets/image/graphics/map.jpg');
     height: 28rem
   }
   .p-crown .s-task .content {
@@ -7102,7 +7102,7 @@ progress::-webkit-progress-value {
 
 .p-edua .s-task.task2 .content h3 {
   padding-top: 2.25rem;
-  //background: url(../img/edua/caledoninan-school.svg) no-repeat top left;
+  background: url('/assets/image/caledoninan-school.svg') no-repeat top left;
   background-size: 1.75rem auto
 }
 
@@ -7170,7 +7170,7 @@ progress::-webkit-progress-value {
 
 .p-edua .s-content.tutor .content h3 {
   padding-top: 3.25rem;
-  //background: url(../img/edua/tutor-ico.svg) no-repeat top center;
+  background: url('/assets/imagetutor-ico.svg') no-repeat top center;
   background-size: 2.5rem auto
 }
 

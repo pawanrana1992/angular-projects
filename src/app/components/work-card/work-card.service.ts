@@ -1,20 +1,16 @@
+import {IWorkCard} from './work-card-interface';
 import {Injectable} from '@angular/core';
 
-@Injectable()
 
-export interface WorkCard {
-    title: string;
-    development: string;
-    description: string;
-    url: string;
-    image: string;
-    zoomAnim: boolean;
-}
 
+@Injectable(
+    {
+        providedIn: 'root',
+    }
+)
 export class WorkCardService {
-    getWorkCardData() {
-
-        const workcard: WorkCard[] = [
+    getWorkCard() {
+        return [
             {
                 title: 'Magebit 2',
                 development: 'Graphic design',
@@ -26,15 +22,21 @@ export class WorkCardService {
             },
 
             {
-                title: 'Magebit 3',
+                title: 'title',
                 development: 'Graphic design',
                 description: 'We have built a new web for IT professionals from Latvia',
                 url: '/next-url',
                 image: '../assets/image/graphics/justio-bg.jpg',
-                zoomAnim: false,
-
+                zoomAnim: false
             },
-                ];
-        return workcard;
+            {
+                title: 'title',
+                development: 'Graphic design',
+                description: 'We have built a new web for IT professionals from Latvia',
+                url: '/next-url',
+                image: '../assets/image/graphics/magebit-laptop.png',
+                zoomAnim: true
+            }
+        ];
     }
 }

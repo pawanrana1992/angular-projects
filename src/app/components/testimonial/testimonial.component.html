@@ -1,0 +1,28 @@
+
+<section class="s-3 u-landing-section landed">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="o-carousel">
+                    <div class="a-circle quote u-landing landed"></div>
+                    <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig">
+                        <div ngxSlickItem *ngFor="let slide of slides; let i=index" class="slide">
+                            <div class="m-testimonial">
+                                <div class="author"><span class="name">Andrej Čírtek</span> managing director of PP&nbsp;Partners
+                                </div>
+                                <div class="body">
+
+                                    <p>I appreciated the flexibility, listening to the needs of the client, and the
+                                        motivation to prepare the most effective solution with regard to price and
+                                        performance.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </ngx-slick>
+                    <div class="numbering u-landing landed">2 <span class="divider"></span> 3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
