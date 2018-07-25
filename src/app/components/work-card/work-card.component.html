@@ -1,6 +1,6 @@
 
-<div class=" u-landing-self u-delay-2 landed" *ngFor="let item of workdata; let i = index">
-  <a class="o-tile magebit " href="{{item.url}}">
+<div class="u-landing-self u-delay-2 landed" *ngFor="let item of workdata; let i = index">
+  <a class="o-tile " href="{{item.url}}">
     <div class="m-tile-header {{item.zoomAnim === true ? '':'zoom'}}">
       <div class="a-bg-circle spread2" *ngIf="item.zoomAnim === true"></div>
       <div class="a-bg-rectangle spread3" *ngIf="item.zoomAnim === true"></div>
